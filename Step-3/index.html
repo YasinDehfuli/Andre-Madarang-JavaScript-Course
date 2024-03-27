@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Step 3 - Boolean Variables</title>
+</head>
+<body>
+<script>
+  let age = 16;
+  
+  const isOld = age >= 30;
+  const isYoung = age <= 30;
+  
+  console.log('is old', isOld)
+  console.log('is young', isYoung)
+  
+  console.log('---------------------------')
+</script>
+
+<script>
+<!--  Equality: Strict Equality === Vs Loose Equality == -->
+console.log(4 === '4');
+console.log(4 == '4');
+console.log(4 !== '4');
+console.log(4 != '4');
+
+// Logical operators
+console.log('And Operator:', true && true);
+console.log('And Operator:', true && false);
+console.log('And Operator:', false && true);
+console.log('And Operator:', false && false);
+
+console.log('Or Operator:', true || true);
+console.log('Or Operator:', true || false);
+console.log('Or Operator:', false || true);
+console.log('Or Operator:', false || false);
+
+// Convert Boolean to String ⬇️
+console.log(isOld.toString());
+
+</script>
+
+</body>
+</html>
